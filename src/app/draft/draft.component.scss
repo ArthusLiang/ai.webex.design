@@ -1,7 +1,0 @@
-@use 'functions.scss' as func;
-@use 'mixins.scss' as mixins;
-@use 'settings.scss' as settings;
-
-:host {
-    @include mixins.container();
-}

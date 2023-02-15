@@ -1,7 +1,0 @@
-<div [ngClass]="className">
-    <p class='primary' *ngIf="primary" [innerHTML]="html(primary)" ></p>
-    <p class='secondary'  *ngIf="secondary" [ngClass]="{'fisrt-line': !primary}" [innerHTML]="html(secondary)" ></p>
-    <div class="link_warps" *ngIf="url" >
-        <a class="link" [ngClass]="{'fisrt-line': !primary && !secondary}"  [routerLink]="url" >{{link}}<i></i></a>
-    </div>
-</div>
